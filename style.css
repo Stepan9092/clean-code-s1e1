@@ -5,6 +5,13 @@
   font-family: Lato, sans-serif;
 }
 
+.h1{
+  visibility: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
 .description__container {
   width: 500px;
   margin: 0 auto;
@@ -36,6 +43,13 @@
 
 .addition__task {
   display: flex;
+}
+
+.addition__container{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .todo-tasks__list,
@@ -98,6 +112,10 @@
 .addition__title {
   display: block;
   margin: 0 0 20px;
+}
+
+.addition__label{
+  display: block;
 }
 
 .addition__input {
